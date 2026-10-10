@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller 构建产物
+build/
+dist/
+*.spec
+*.manifest
+
+# 本地测试产物
+_out/
+_selftest_out/
+*.log
+
+# 测试用 PDF（含水印原件与处理结果）
+*.pdf
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
